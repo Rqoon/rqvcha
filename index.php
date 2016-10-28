@@ -203,7 +203,7 @@
 
         <script src="https://raw.githubusercontent.com/Rqoon/rqvcha/4cdb493da58aef2852af7964cf9035caa41659bd/RTCMultiConnection.js"></script>
 
-        <script src="http://rqoon.com/socket.io/socket.io.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
 
 
 
@@ -489,7 +489,7 @@
 
             // by default, socket.io server is assumed to be deployed on your own URL
 
-            connection.socketURL = 'https://rqvch.herokuapp.com:443/';
+            connection.socketURL = '/';
 
 
 
